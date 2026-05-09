@@ -38,5 +38,3 @@ Students apply for admissions.
 Staff verify details.
 Admins manage records.
 
-## Screenshots
-(Add Trailhead screenshots here)
