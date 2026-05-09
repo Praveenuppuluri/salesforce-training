@@ -1,91 +1,42 @@
-Day 2 - Salesforce Platform Basics
-1. What is Salesforce Platform?
-Salesforce Platform is a cloud-based platform used to build apps, automate business processes, store data, and customize business solutions with low-code and coding tools.
+# Day 2 - Platform Basics
 
-It helps developers and businesses create secure and scalable applications quickly.
+## What is Salesforce Platform?
+Salesforce Platform is a cloud-based environment used to build business applications.
 
-2. Explain
-App
-An app in Salesforce is a collection of tools, objects, tabs, and features designed for a specific business purpose.
+## App
+A collection of related objects and tabs.
 
-Example: A Sales App helps manage leads, contacts, and opportunities.
+## Object
+A database table used to store records.
 
-Object
-An object is like a database table that stores information.
+## Tab
+Used to access objects through UI.
 
-Examples:
+## Configuration vs Coding
 
-Contact Object → stores customer details
-Property Object → stores property details
-Objects contain fields and records.
+### Configuration
+- Create fields
+- Flow automation
 
-Tab
-A tab is the user interface element used to access objects, pages, or tools inside Salesforce.
+### Coding
+- Apex triggers
+- API integrations
 
-Example: The Contacts tab opens customer contact records.
+## System Design
 
-3. Difference: Configuration vs Coding
-Configuration
-Configuration means customizing Salesforce using point-and-click tools without writing code.
+### App Name
+College Admission App
 
-Examples:
+### Objects
+- Student
+- Course
+- Admission
+- Payment
 
-Creating fields
-Building flows
-Designing page layouts
-Benefits:
+### User Interaction
+Students apply for admissions.
+Staff verify details.
+Admins manage records.
 
-Faster
-Easy to maintain
-No coding required
-Coding
-Coding means writing custom logic using Salesforce languages like Apex and Lightning Web Components.
-
-Examples:
-
-Custom automation
-Advanced business logic
-Custom UI components
-Benefits:
-
-More flexibility
-Handles complex requirements
-4. My System Design
-App Name:
-Student Management App
-
-Objects:
-Student Object
-
-Student Name
-Roll Number
-Department
-Attendance
-Course Object
-
-Course Name
-Faculty Name
-Credits
-Result Object
-
-Student Name
-Subject
-Marks
-Grade
-User Interaction
-Admin
-
-Add students
-Add courses
-Manage results
-Faculty
-
-Update attendance
-Enter marks
-Student
-
-View attendance
-View results
-Check course details
-Conclusion
-Salesforce Platform helps build applications quickly using configuration and coding. It provides flexibility to create business solutions efficiently
+## Screenshots
+(Add Trailhead screenshots here)
